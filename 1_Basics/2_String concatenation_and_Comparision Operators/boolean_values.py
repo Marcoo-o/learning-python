@@ -1,3 +1,6 @@
+# Continuing this series there will be a # Base - Area which contains fundamental knowledge we have discussed before.
+# If you're wondering what certain things are you can always head back to previous lessons.
+
 # Base
 username = "admin"
 min_length = 8
@@ -10,8 +13,6 @@ is_valid_length = actual_length >= min_length
 print("Does the password meet the policy requirements?")
 print(is_valid_length)
 
-# Summary:
-# 
 # Whenever there is a comparison the evaluation of this term will be a boolean.
 # It can only take two defined states: true and false.
 #
@@ -20,9 +21,10 @@ print(is_valid_length)
 # a >= b, a <= b       a is greater equals than b, a is less equal than b
 # a == b, a != b       a equals to b, a is not equal to b
 
+
 # Exercises:
 #
-# Write your own python code, that...
+# Write your own python code, that…
 # 1.) Creates a variable with the name input_password and set its value to a password of your choice.
 # 2.) Creates a variable with the name is_admin, which checks if the length of username equals to the length of "admin".
 # 3.) Prints the result of this check.
